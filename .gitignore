@@ -1,0 +1,37 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+# It is critical not to upload your venv (thousands of files)
+.venv/
+venv/
+env/
+ENV/
+
+# --- Project Data (Too large for GitHub) ---
+# Ignore the raw corpus and the CSVs
+data/
+*.csv
+*.txt
+
+# --- Trained Models (Too large for GitHub) ---
+# FastText vectors and LSTM weights can be GBs in size
+models/
+*.bin
+*.h5
+*.keras
+*.vec
+
+# --- IDE Settings (VS Code, PyCharm, etc.) ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+
+# --- Jupyter Notebook Checkpoints ---
+.ipynb_checkpoints/
